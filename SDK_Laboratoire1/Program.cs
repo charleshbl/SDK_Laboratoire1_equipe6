@@ -13,7 +13,7 @@ do
 while (true)
 {
 
-    Console.WriteLine($@"Entrer une lettre entre A et G ");
+    Console.WriteLine("Entrer une lettre entre A et G ");
     Console.WriteLine($"Note:{conversionAlphabetiqueToNote.Transformer(Console.ReadKey(intercept: true).KeyChar.ToString().ToUpper())}");
 
 }
