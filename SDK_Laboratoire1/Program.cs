@@ -2,18 +2,18 @@
 
 
 
-ConversionAlphabetiqueToNote conversionAlphabetiqueToNote=new ConversionAlphabetiqueToNote();
+ConversionAlphabetiqueToNote conversionAlphabetiqueToNote = new ConversionAlphabetiqueToNote();
 var choix = "..";
 do
 {
     Console.WriteLine("Bonjours Quelle conversion voulez-vous faire:");
-   choix = Console.ReadLine() ;
+    choix = Console.ReadLine();
 } while (choix.ToUpper() != "NOTE");
 
-while (true) 
+while (true)
 {
-    
-    Console.WriteLine($@"Entrer une lettre entre A et G 
- {conversionAlphabetiqueToNote.Transformer(Console.ReadKey(intercept:true).KeyChar.ToString().ToUpper())}");
+
+    Console.WriteLine($@"Entrer une lettre entre A et G ");
+    Console.WriteLine($"Note:{conversionAlphabetiqueToNote.Transformer(Console.ReadKey(intercept: true).KeyChar.ToString().ToUpper())}");
 
 }
