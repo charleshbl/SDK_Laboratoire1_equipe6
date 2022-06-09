@@ -3,14 +3,14 @@
 
 
 ConversionAlphabetiqueToNote conversionAlphabetiqueToNote=new ConversionAlphabetiqueToNote();
-
+var choix = "..";
 do
 {
     Console.WriteLine("Bonjours Quelle conversion voulez-vous faire:");
-   public string choix = Console.ReadLine() ;
-} while (key.Key != ConsoleKey.Enter);
+   choix = Console.ReadLine() ;
+} while (choix.ToUpper() != "NOTE");
 
-while (true)
+while (true) 
 {
     
     Console.WriteLine($@"Entrer une lettre entre A et G 
