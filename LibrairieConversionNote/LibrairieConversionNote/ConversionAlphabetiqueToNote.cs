@@ -13,7 +13,7 @@ public class ConversionAlphabetiqueToNote
     
     public string Transformer(string Lettre)
     {
-        switch ((Lettre)) //CEci est un comenataire 
+        switch ((Lettre)) 
         {
             case "A": return _LA;
             case "B": return _SI;
