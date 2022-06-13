@@ -15,6 +15,6 @@ while (true)
 {
 
     Console.WriteLine("Entrez une lettre entre A et G : ");
-    Console.WriteLine($"Note:{Allo.Transformer(Console.ReadKey(intercept: true).KeyChar.ToString().ToUpper())}");
+    Console.WriteLine($"Note:{Allo.AlphabeticalToNote(Console.ReadKey(intercept: true).KeyChar.ToString().ToUpper())}");
 
 }
