@@ -17,4 +17,4 @@ while (true)
     Console.WriteLine($"Note:{conversionAlphabetiqueToNote.Transformer(Console.ReadKey(intercept: true).KeyChar.ToString().ToUpper())}");
 
 }
-// Pull donc ça pour le fun
+// Pull donc ça pour le fun encore
