@@ -15,7 +15,11 @@ public class ConversionAlphabetiqueToNote
     };
     public string AlphabeticalToNote(string KEY)
     {
-        return alphabeticalToNote[KEY];
+        while (!alphabeticalToNote.ContainsKey(KEY))
+        {
+            return "Entrée invalide .";
+        }
+          return alphabeticalToNote[KEY];
     }
     //private const string _DO = "Do";
     //private const string _RE = "RÉ";
@@ -34,20 +38,20 @@ public class ConversionAlphabetiqueToNote
     //    alphabeticalToNote.Add("MI", "C");
     //    alphabeticalToNote.Add("FA", "D");
 
-        //switch ((Lettre)) 
-        //{
-        //    case "A": return _LA;
-        //    case "B": return _SI;
-        //    case "C": return _DO;
-        //    case "D": return _RE;
-        //    case "E": return _MI;
-        //    case "F": return _FA;
-        //    case "G": return _SOL;
+    //switch ((Lettre)) 
+    //{
+    //    case "A": return _LA;
+    //    case "B": return _SI;
+    //    case "C": return _DO;
+    //    case "D": return _RE;
+    //    case "E": return _MI;
+    //    case "F": return _FA;
+    //    case "G": return _SOL;
 
-        //    default:
-        //        return "La note n'existe pas";
+    //    default:
+    //        return "La note n'existe pas";
 
-        //}
+    //}
 
-    
+
 }
