@@ -4,7 +4,15 @@ namespace LibrairieConversionNote;
 
 public class ConversionAlphabetiqueToNote
 {
-    readonly Dictionary<string, string> alphabeticalToNote = new() { { "A", "DO" }, { "B", "RE" }, { "C", "MI" }, { "D", "FA" }, { "E", "SOL" }, { "F", "LA" }, { "G", "SI" } };
+    readonly Dictionary<string, string> alphabeticalToNote = new() {
+        { "A", "DO" },
+        { "B", "RE" }, 
+        { "C", "MI" },
+        { "D", "FA" }, 
+        { "E", "SOL" }, 
+        { "F", "LA" },
+        { "G", "SI" } 
+    };
     public string AlphabeticalToNote(string KEY)
     {
         return alphabeticalToNote[KEY];
