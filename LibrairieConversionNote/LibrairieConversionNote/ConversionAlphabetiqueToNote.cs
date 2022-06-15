@@ -30,14 +30,6 @@ public class ConversionAlphabetiqueToNote
     //private const string _SI = "SI";
 
 
-    //public string Transformer(string Lettre)
-    //{
-    //    alphabeticalToNote.Clear();
-    //    alphabeticalToNote.Add("DO", "A");
-    //    alphabeticalToNote.Add("RÉ", "B");
-    //    alphabeticalToNote.Add("MI", "C");
-    //    alphabeticalToNote.Add("FA", "D");
-
     //switch ((Lettre)) 
     //{
     //    case "A": return _LA;
