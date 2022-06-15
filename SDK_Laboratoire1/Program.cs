@@ -2,7 +2,7 @@
 
 
 
-ConversionAlphabetiqueToNote Allo = new ConversionAlphabetiqueToNote();
+ConversionAlphabetiqueToNote alphaToNote = new ConversionAlphabetiqueToNote();
 
 var choix = "..";
 do
@@ -15,6 +15,6 @@ while (true)
 {
 
     Console.WriteLine("Entrez une lettre entre A et G : ");
-    Console.WriteLine($"Note:{Allo.AlphabeticalToNote(Console.ReadKey(intercept: true).KeyChar.ToString().ToUpper())}");
+    Console.WriteLine($"Note:{alphaToNote.AlphabeticalToNote(Console.ReadKey(intercept: true).KeyChar.ToString().ToUpper())}");
 
 }
